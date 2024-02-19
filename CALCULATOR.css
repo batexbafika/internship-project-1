@@ -1,0 +1,96 @@
+
+#calculator{
+	width:33%;
+	padding:10px;
+	margin:auto;
+	border:6px groove rgb(121, 14, 14);
+	background-color: coral;
+	display:flex;
+	border-style:3px;
+	white-space:nowrap;
+	display:inline-block;
+	border-radius: 20px;
+	box-shadow:0px 6px 0px 0px rgba(209, 12, 12, 0.842);
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	overflow: auto;
+
+}
+p{
+text-align:center;
+}
+#Display{
+	width:70%;
+	height: 60px;
+	margin-bottom: 10px;
+	border:4px groove yellow;
+	font-size:32px;
+	border-radius:6px;
+	margin-left:9%;
+	margin-top: -86px;
+	background-color:#e5ecec;
+	max-height: 60px;
+	max-width: 20%;
+	overflow: hidden;
+	position: fixed;
+
+}
+#sqr{
+	background-image:linear-gradient(to right,#041d1d, #505cff, #fa204f );
+	color: #e5ecec;
+	margin-bottom: 22px;
+}
+
+#equall{
+	background-image:linear-gradient(to right, white, #03eeef, #fa204f );
+	color: black;
+
+}
+button{
+	width:80px;
+	height:50px;
+	display: :grid;
+	overflow:auto;
+	tab-size:1;
+	margin-bottom: 10px;
+	margin-left:1px;
+	background-image:linear-gradient(to right,#c51b26, #f7f476, #ffda09 );
+	border-radius: 8px;
+	box-shadow:0px 0px 0px 5px rgba(0,0,0,0.2);
+	
+}
+
+h1{
+display:flex;
+margin-top:5px;
+
+}
+#glass{
+	max-width:98%;
+	max-height: 8%;
+	box-shadow:0px 0px 0px 12px rgba(0,0,0,0.2);
+	border:0.2px solid white;
+	background-color: #e5ecec;
+	border-radius: 18px;
+	justify-content: center;
+	margin-left:2px;
+	margin-top: 5px;
+	
+}
+
+.result{
+	 text-align: right;
+	 font-size: 65px;
+	 overflow:hidden;
+	 white-space: nowrap;
+	 position: fixed;
+     
+}
+
+#mode{
+	width: 50%;
+	height: 60px;
+	margin-top: 25px;
+
+}
